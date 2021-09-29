@@ -1,3 +1,19 @@
 Git commands
 -------------------
-git clone <repo-url>
+1.git clone <repo-url>
+
+2.local repo 
+----------------
+git init
+git status
+git add .
+git commit -m "comiting file"
+
+initalize local repo adds all files changes and commits to local repo
+-------------------------------
+
+3. pushing changes to a branch in Git
+git remote
+->origin
+
+git push <remote-name> <branch-name>
