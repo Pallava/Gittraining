@@ -6,8 +6,9 @@ Git commands
 ----------------
 git init -->initialize the folder as git repository
 git status
-git add .
+git add . --> adds files into staging area
 git commit -m "comiting file"
+git commit -a -->commits all files
 
 initalize local repo adds all files changes and commits to local repo
 -------------------------------
