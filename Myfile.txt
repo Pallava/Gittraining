@@ -4,7 +4,7 @@ Git commands
 
 2.local repo 
 ----------------
-git init
+git init -->initialize the folder as git repository
 git status
 git add .
 git commit -m "comiting file"
