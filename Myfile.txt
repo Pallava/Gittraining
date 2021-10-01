@@ -1,4 +1,4 @@
-Git commands11
+Git commands
 -------------------
 1.git clone <repo-url>
 
@@ -9,6 +9,30 @@ git status
 git add . --> adds files into staging area
 git commit -m "comiting file"
 git commit -a -->commits all files
+
+
+if there are 2 files and want to add 1 file only
+git add file1.txt --> adds files to staging area
+
+Note: we need to create remote-repo first
+
+-------------------------------
+create a new repository on the command line
+-----------------------------------
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Pallava/NewRepo.git
+git push -u origin main
+--------------------------------------------------
+push an existing repository from the command line
+--------------------------------------------------
+git remote add origin https://github.com/Pallava/NewRepo.git
+git branch -M main
+git push -u origin main
+---------------------------------------------------
+
 
 initalize local repo adds all files changes and commits to local repo
 -------------------------------
