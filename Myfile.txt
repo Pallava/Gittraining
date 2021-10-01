@@ -56,3 +56,12 @@ git restore <file-names>
 will restore with working copy 
 
 ----------------------------------------
+
+Switch branch
+git branch <branch-name>
+git branch develop
+
+merge from master to your local branch
+->switch to the branch to be merged
+git merge main
+---------------------------------
