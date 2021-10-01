@@ -42,3 +42,17 @@ git remote
 ->origin
 
 git push <remote-name> <branch-name>
+
+--------------------------------------
+Before updating
+git status 
+(your local directory)
+shows changes between your local copy and the branch
+
+git pull
+will update your local repo from remote repo
+
+git restore <file-names>
+will restore with working copy 
+
+----------------------------------------
